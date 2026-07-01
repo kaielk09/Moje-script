@@ -1,6 +1,6 @@
 -- ULTRA-DOKŁADNA KONFIGURACJA WIZUALNA (1 DO 1)
-local BACKEND_URL = "http://tosthost.pl" 
-local DISCORD_INVITE = "https://discord.gg" 
+local BACKEND_URL = "n6.tosthost.pl:5010" 
+local DISCORD_INVITE = "https://discord.gg/WnKJJmEPq" 
 
 local HttpService = game:GetService("HttpService")
 local CoreGui = game:GetService("CoreGui")
