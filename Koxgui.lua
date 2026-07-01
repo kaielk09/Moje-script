@@ -257,7 +257,8 @@ CheckKeyBtn.MouseButton1Click:Connect(function()
             ScreenGui:Destroy()
             
             -- Odpalenie skryptu docelowego po pomyślnej weryfikacji
-            loadstring(game:HttpGet("https://githubusercontent.com"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/zeynwq/main/main/rivals1"))()
+                
             
         elseif data.status == "expired" then
             StatusLabel.Text = "KEY EXPIRED! GET A NEW ONE"
